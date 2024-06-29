@@ -6,9 +6,17 @@ Mediapip
 Matplotlib
 pickle
 numpy
+tensorflow
+
 
 
 Step di implementazione:
+
+1 Creare il ricettore con la quale aquisiremo i le immagini da dare in pasto al nostro sistema di riconoscimento. 
+
+2 
+
+
 
 Diagrammi:
 

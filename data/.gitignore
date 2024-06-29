@@ -1,0 +1,22 @@
+# Ignora i file di dati di addestramento
+data/
+*.pickle
+
+# Ignora i file dei modelli salvati
+model.p
+
+# Ignora i file di output di Jupyter Notebook
+*.ipynb_checkpoints/
+
+# Ignora i file di configurazione dell'ambiente virtuale
+venv/
+.env
+
+# Ignora i file di log
+*.log
+
+# Ignora i file temporanei
+*.tmp
+*.temp
+*.bak
+*.swp
