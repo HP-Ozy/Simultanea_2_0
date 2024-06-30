@@ -6,7 +6,7 @@ import numpy as np
 model_dict = pickle.load(open('./model.p', 'rb'))
 model = model_dict['model']
 
-# Ottieni il numero di caratteristiche con cui il modello è stato addestrato
+
 expected_features = model.n_features_in_
 
 cap = cv2.VideoCapture(0)
@@ -60,7 +60,7 @@ while True:
         x2 = int(max(x_) * W) - 10
         y2 = int(max(y_) * H) - 10
 
-        # Assicurati che data_aux abbia il numero corretto di caratteristiche
+        
         if len(data_aux) == expected_features:
             prediction = model.predict([np.asarray(data_aux)])
             predicted_character = labels_dict[int(prediction[0])]
