@@ -1,11 +1,14 @@
-Librerie Utilizzate
+# Librerie Utilizzate
 OpenCV: Per l'acquisizione e la manipolazione delle immagini.
 MediaPipe: Per il rilevamento e il tracciamento delle mani.
 Matplotlib: Per la visualizzazione dei dati e delle immagini.
 pickle: Per la serializzazione e deserializzazione degli oggetti.
 numpy: Per la manipolazione efficiente degli array numerici.
 TensorFlow: Per la costruzione e l'addestramento dei modelli di machine learning.
-Fasi di Implementazione
+
+
+# Fasi di Implementazione
+
 1. Raccolta dei Dati
 Per creare il nostro modello, dobbiamo inizialmente acquisire un set di dati di immagini che verranno utilizzate per l'addestramento. Nel file collection, è implementata una soluzione rapida per creare e accumulare un numero significativo di immagini necessarie per il nostro obiettivo. Questo passaggio è cruciale per garantire che il modello abbia una varietà sufficiente di dati per apprendere correttamente.
 
@@ -18,5 +21,6 @@ Con il dataset pronto, possiamo procedere con l'addestramento del modello. È fo
 4. Verifica delle Dipendenze
 IMPORTANTE: Prima di eseguire il codice, assicurati di aver installato correttamente tutte le librerie necessarie. Verifica le versioni delle librerie installate sulla tua macchina per evitare eventuali problemi con funzioni deprecate o incompatibilità. Questo passaggio è essenziale per garantire che l'ambiente di sviluppo sia configurato correttamente e che il codice possa essere eseguito senza problemi.
 
-Note Finali
+# Note Finali
+Per motivi evidenti ho occultato la cartella data dove andrai a mettere le tue immagini per allenare il modello, oltre a questo: 
 Assicurarsi di seguire attentamente ogni fase del processo per ottenere un modello ben addestrato e valutato. Un'accurata raccolta dei dati, una preparazione meticolosa e una divisione strategica del dataset sono fondamentali per il successo del progetto di machine learning.
