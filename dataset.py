@@ -1,8 +1,7 @@
-import os
-import pickle
-
-import mediapipe as mp
-import cv2
+import os # con questa lib abbiamo accesso alla possibilità di manipolare i file sistem e utilizzarli come preferiamo
+import pickle # con questa lib, serializziamo gli oggetti 
+import mediapipe as mp # con mp andiamo a configurare le nostre " handsmarks" ottimizzate da google per l'utilizzo su umani
+import cv2 
 import matplotlib.pyplot as plt
 
 

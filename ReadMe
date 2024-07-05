@@ -7,6 +7,12 @@ numpy: Per la manipolazione efficiente degli array numerici.
 TensorFlow: Per la costruzione e l'addestramento dei modelli di machine learning.
 
 
+# Principi Chiave per La logica: 
+
+
+
+
+
 # Fasi di Implementazione
 
 1. Raccolta dei Dati
